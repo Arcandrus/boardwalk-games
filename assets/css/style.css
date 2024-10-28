@@ -60,6 +60,16 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+/* Games Library */
+
+#new-games .card {
+  margin-bottom: 1.5rem;
+}
+
+#fav-games .card {
+  margin-bottom: 1.5rem;
+}
+
 /* Navbar */
 
 #navbar {
@@ -83,11 +93,38 @@ h2 {
   #services .card-body {
     min-height: 200px;
   }
+
+  #new-games .card-body {
+    min-height: 260px;
+  }
+
+  #fav-games .card-body {
+    min-height: 315px;
+  }
 }
 
 @media screen and (min-width: 992px) {
   /* Making card height consistant */
   #services .card-body {
     min-height: 220px;
+  }
+
+  #new-games .card-body {
+    min-height: 250px;
+  }
+
+  #fav-games .card-body {
+    min-height: 270px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /* Making card height consistant */
+  #new-games .card-body {
+    min-height: 290px;
+  }
+
+  #fav-games .card-body {
+    min-height: 340px;
   }
 }
