@@ -28,7 +28,6 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
-  text-transform: uppercase;
 }
 
 .sub-heading-color {
@@ -38,6 +37,27 @@ h3 {
 .section {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+/* Services */
+
+#services .card-footer {
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: transparent;
+}
+
+#services .card {
+  margin-bottom: 1.5rem;
 }
 
 /* Navbar */
@@ -54,4 +74,20 @@ h3 {
 
 #header .lead {
   font-family: var(--secondary-font);
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 786px) {
+  /* Making card height consistant */
+  #services .card-body {
+    min-height: 200px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Making card height consistant */
+  #services .card-body {
+    min-height: 220px;
+  }
 }
