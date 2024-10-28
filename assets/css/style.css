@@ -13,6 +13,7 @@
 }
 
 /* Global Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -27,10 +28,16 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
+  text-transform: uppercase;
 }
 
 .sub-heading-color {
   color: var(--highlight-color);
+}
+
+.section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Navbar */
@@ -43,16 +50,8 @@ h3 {
   width: 30px;
 }
 
-/* grid visualisation CSS for testing
+/* Header */
 
-.container,
-.row {
-    border: 2px solid black;
+#header .lead {
+  font-family: var(--secondary-font);
 }
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
-
-*/
