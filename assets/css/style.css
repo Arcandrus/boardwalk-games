@@ -76,6 +76,20 @@ h2 {
   padding: 7px 25px;
 }
 
+/* Events */
+
+#student-discount {
+  background-color: var(--highlight-color);
+  color: white;
+  margin: 0 auto;
+  width: 60%;
+  padding: 7px 0;
+}
+
+#student-discount p {
+  margin: 0;
+}
+
 /* Services */
 
 #services .card-footer {
