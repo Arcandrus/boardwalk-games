@@ -151,6 +151,8 @@ h2 {
 #contact .social-links i {
   color: var(--highlight-color-light);
   font-size: 1.9rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
@@ -180,7 +182,7 @@ h2 {
 }
 
 @media screen and (min-width: 992px) {
-  /* Making card height consistant */
+  /* Making card height consistent */
   #services .card-body {
     min-height: 220px;
   }
@@ -195,7 +197,7 @@ h2 {
 }
 
 @media screen and (min-width: 1200px) {
-  /* Making card height consistant */
+  /* Making card height consistent */
   #new-games .card-body {
     min-height: 290px;
   }
